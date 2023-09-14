@@ -5,8 +5,8 @@
 kilometer = eval (input ("Hvad er distancen i Kilometer? ") )
 miles= (kilometer * 0.6214)
 print (kilometer, "Kilometer er lig med", miles, "Miles" )
-#Miles til Kilometer
 
+#Miles til Kilometer
 miles= eval (input ("Hvad er distancen i Miles? ") )
 kilometer= (miles * 1.609344)
 print (miles, "Miles er lig med",kilometer, "Kilometer"  )
