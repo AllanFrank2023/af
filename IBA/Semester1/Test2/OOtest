@@ -1,7 +1,7 @@
 # Velkomst
 print("Velkommen til lommeregneren!")
 
-while True:
+while
     # Valgmulighederne
     print("Vælg en regnemetode:")
     print("1. Addition, 2. Subtraktion, 3. Multiplikation, 4. Division")
