@@ -47,19 +47,3 @@ print("Skudag er lagt til: ", skuddag)
 print("Opgave B løsning:", day_num2)
    
 #############################################
-
-
-# Er det skudår ??
-# Input af årstal
-###year = int(input("Indtast årstal: "))
-
-###if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-###    print(f"{year} er skudår.")
-###else:  print(f"{year} er ikke skudår.")
-
-    # Skudår eller ej
-#if is_leap_year(year):
-       
-#else:
-       
-        
