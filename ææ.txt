@@ -1,1 +1,0 @@
-/usr/local/bin/python3 /Users/allan/af/IBA/Semester1/Test2/Opgaver

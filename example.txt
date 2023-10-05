@@ -1,3 +1,0 @@
-Denne her file er opretttet gennem Python.
-Du kan tilføje mere tekst her.
-Luk filen når du er færdig.
