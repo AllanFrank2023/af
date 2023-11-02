@@ -16,7 +16,9 @@ class Graphics:
             '7', '9', '8', '/',
             '4', '5', '6', '*',
             '1', '2', '3', '-',
-            '0', 'C', '=', '+'
+            '0', 'C', '=', '+',
+            'sqrt', 'sin', 'cos', 'tan',
+            '(', ')', '.'  # Added '(' and ')' buttons and the '.' button
         ]
 
         row, col = 1, 0
@@ -47,25 +49,44 @@ class Graphics:
         except:
             self.result_var.set("Error")
 
-#class Calculator:
- #   @staticmethod
- #  def add(a, b):
- #      return a + b
+class Calculator:
+    @staticmethod
+    def add(a, b):
+        return a + b
 
- #   @staticmethod
- #   def subtract(a, b):
-  #      return a - b
+    @staticmethod
+    def subtract(a, b):
+        return a - b
 
- #   @staticmethod
-  #  def multiply(a, b):
- #       return a * b
+    @staticmethod
+    def multiply(a, b):
+        return a * b
 
- #   @staticmethod
- #   def divide(a, b):
- #       if b != 0:
- #           return a / b
- #       else:
- #           return "Undefined"
+    @staticmethod
+    def divide(a, b):
+        if b != 0:
+            return a / b
+        else:
+            return "Undefined"
+
+    @staticmethod
+    def square_root(a):
+        return a ** 0.5
+
+    @staticmethod
+    def sine(angle):
+        import math
+        return math.sin(angle)
+
+    @staticmethod
+    def cosine(angle):
+        import math
+        return math.cos(angle)
+
+    @staticmethod
+    def tangent(angle):
+        import math
+        return math.tan(angle)
 
 class Main:
     def __init__(self):
